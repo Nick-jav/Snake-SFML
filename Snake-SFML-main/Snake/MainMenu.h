@@ -21,7 +21,7 @@ public:
         title.setFont(font);
         title.setCharacterSize(48);
         title.setString("SNAKE");
-        title.setPosition(200, 100);
+        title.setPosition(320, 100);
 
         // Configura las opciones del menú
         options.push_back("Juego nuevo");

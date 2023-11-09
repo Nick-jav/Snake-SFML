@@ -583,7 +583,7 @@
 
 1699318296 c:\users\marcos\desktop\mauro\proyectos\snakesfml\snake\mainmenu.h
 
-1699387642 source:c:\users\marcos\desktop\mauro\proyectos\snake\snake\main.cpp
+1699471365 source:c:\users\marcos\desktop\mauro\proyectos\snake\snake\main.cpp
 	<SFML/Graphics.hpp>
 	<SFML/Audio.hpp>
 	<stdlib.h>
@@ -593,6 +593,7 @@
 	"Comida.h"
 	"arana.h"
 	"MainMenu.h"
+	"PowerUp.h"
 
 1698687153 c:\users\marcos\desktop\mauro\proyectos\snake\snake\colisionable.h
 
@@ -603,12 +604,15 @@
 1699317978 c:\users\marcos\desktop\mauro\proyectos\snake\snake\comida.h
 	"colisionable.h"
 
-1699387271 c:\users\marcos\desktop\mauro\proyectos\snake\snake\arana.h
+1699470997 c:\users\marcos\desktop\mauro\proyectos\snake\snake\arana.h
 	"colisionable.h"
 
 1699318296 c:\users\marcos\desktop\mauro\proyectos\snake\snake\mainmenu.h
 
-1699485171 source:c:\users\nicol\onedrive\escritorio\snake-sfml-main (1)\snake-sfml-main\snake\main.cpp
+1699471825 c:\users\marcos\desktop\mauro\proyectos\snake\snake\powerup.h
+	"colisionable.h"
+
+1699490174 source:c:\users\marcos\desktop\mauro\proyectos\snakee\main.cpp
 	<SFML/Graphics.hpp>
 	<SFML/Audio.hpp>
 	<stdlib.h>
@@ -618,6 +622,65 @@
 	"Comida.h"
 	"arana.h"
 	"MainMenu.h"
+	"PowerUp.h"
+
+1699486038 c:\users\marcos\desktop\mauro\proyectos\snakee\colisionable.h
+
+1699489457 c:\users\marcos\desktop\mauro\proyectos\snakee\serpiente.h
+	"colisionable.h"
+	<deque>
+
+1699486035 c:\users\marcos\desktop\mauro\proyectos\snakee\comida.h
+	"colisionable.h"
+
+1699470997 c:\users\marcos\desktop\mauro\proyectos\snakee\arana.h
+	"colisionable.h"
+
+1699486004 c:\users\marcos\desktop\mauro\proyectos\snakee\mainmenu.h
+
+1699490245 c:\users\marcos\desktop\mauro\proyectos\snakee\powerup.h
+	"colisionable.h"
+
+1699496977 source:c:\users\marcos\desktop\mauro\proyectos\snake\main.cpp
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<stdlib.h>
+	<ctime>
+	"colisionable.h"
+	"Serpiente.h"
+	"Comida.h"
+	"arana.h"
+	"MainMenu.h"
+	"PowerUp.h"
+
+1699486038 c:\users\marcos\desktop\mauro\proyectos\snake\colisionable.h
+
+1699489457 c:\users\marcos\desktop\mauro\proyectos\snake\serpiente.h
+	"colisionable.h"
+	<deque>
+
+1699486035 c:\users\marcos\desktop\mauro\proyectos\snake\comida.h
+	"colisionable.h"
+
+1699470997 c:\users\marcos\desktop\mauro\proyectos\snake\arana.h
+	"colisionable.h"
+
+1699486004 c:\users\marcos\desktop\mauro\proyectos\snake\mainmenu.h
+
+1699490245 c:\users\marcos\desktop\mauro\proyectos\snake\powerup.h
+	"colisionable.h"
+
+1699502825 source:c:\users\nicol\onedrive\escritorio\snake wsound\snake-sfml-main\snake\main.cpp
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<stdlib.h>
+	<ctime>
+	"colisionable.h"
+	"Serpiente.h"
+	"Comida.h"
+	"arana.h"
+	"MainMenu.h"
+	"PowerUp.h"
 
 1525812018 c:\program files\codeblocks\sfml\include\sfml\graphics.hpp
 	<SFML/Window.hpp>
@@ -1132,19 +1195,20 @@
 	<SFML/Audio/Export.hpp>
 	<string>
 
-1699387883 c:\users\nicol\onedrive\escritorio\snake-sfml-main (1)\snake-sfml-main\snake\colisionable.h
+1699497304 c:\users\nicol\onedrive\escritorio\snake wsound\snake-sfml-main\snake\colisionable.h
 
-1699482685 c:\users\nicol\onedrive\escritorio\snake-sfml-main (1)\snake-sfml-main\snake\serpiente.h
+1699498250 c:\users\nicol\onedrive\escritorio\snake wsound\snake-sfml-main\snake\serpiente.h
 	"colisionable.h"
 	<deque>
 
-1699387883 c:\users\nicol\onedrive\escritorio\snake-sfml-main (1)\snake-sfml-main\snake\comida.h
+1699497304 c:\users\nicol\onedrive\escritorio\snake wsound\snake-sfml-main\snake\comida.h
 	"colisionable.h"
 
-1699387883 c:\users\nicol\onedrive\escritorio\snake-sfml-main (1)\snake-sfml-main\snake\arana.h
+1699501786 c:\users\nicol\onedrive\escritorio\snake wsound\snake-sfml-main\snake\arana.h
 	"colisionable.h"
 
-1699483803 c:\users\nicol\onedrive\escritorio\snake-sfml-main (1)\snake-sfml-main\snake\mainmenu.h
+1699501068 c:\users\nicol\onedrive\escritorio\snake wsound\snake-sfml-main\snake\mainmenu.h
 
-1699480247 c:\users\nicol\onedrive\escritorio\snake-sfml-main (1)\snake-sfml-main\snake\cola.h
+1699497304 c:\users\nicol\onedrive\escritorio\snake wsound\snake-sfml-main\snake\powerup.h
+	"colisionable.h"
 

@@ -20,21 +20,21 @@ public:
     ///ACTUALIZA LOS ESTADOS DE LA ARANA
     void actualizar(){
         tiempo--;
-        if(tiempo<0){
-            tiempo = 60 * 5;
+        if(tiempo < 0){
+            tiempo = 60 * 3;
             posicion = {rand()%700 + spriteArana.getGlobalBounds().width, rand()%350 + spriteArana.getGlobalBounds().height};
         }
         if(posicion.x > spriteArana.getPosition().x){
-            spriteArana.move(1, 0);
+            spriteArana.move(3, 0);
         }
         if(posicion.x < spriteArana.getPosition().x){
-            spriteArana.move(-1, 0);
+            spriteArana.move(-3, 0);
         }
         if(posicion.y > spriteArana.getPosition().y){
-            spriteArana.move(0, 1);
+            spriteArana.move(0, 3);
         }
         if(posicion.y < spriteArana.getPosition().y){
-            spriteArana.move(0, -1);
+            spriteArana.move(0, -3);
         }
 
     }

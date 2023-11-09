@@ -45,6 +45,19 @@ void agregarCola() {
     }
     }
 
+    void achicarCola() {
+        int Achicar = segmentos.size() / 4;
+        for(int i = 0; i < Achicar; i++){
+            segmentos.pop_back();
+        }
+
+}
+
+    void reiniciar(){
+        segmentos.clear();
+        spriteSerpiente.setPosition(400, 300);
+        ultimaDireccion = sf::Vector2f(0, 0);
+    }
 
     ///ACTUALIZA LOS ESTADOS DE LA SERPIENTE
     void actualizar() {
@@ -141,6 +154,19 @@ void agregarCola() {
         return colision;
     }
 
+bool colisionCuerpo() {
+    sf::Vector2f cabezaPos = spriteSerpiente.getPosition();
+
+    if(segmentos.size() > 10){
+          for (size_t i = 1; i < segmentos.size(); ++i) {
+        if (cabezaPos == segmentos[i]) {
+            return true;
+        }
+    }
+    }
+
+    return false;
+}
 
 
 

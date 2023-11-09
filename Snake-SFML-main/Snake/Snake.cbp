@@ -18,6 +18,7 @@
 					<Add library="sfml-graphics-d" />
 					<Add library="sfml-window-d" />
 					<Add library="sfml-system-d" />
+					<Add library="sfml-audio-d" />
 				</Linker>
 			</Target>
 			<Target title="Release">
@@ -50,12 +51,15 @@
 		</Linker>
 		<Unit filename="Comida.h" />
 		<Unit filename="MainMenu.h" />
+		<Unit filename="PowerUp.h" />
 		<Unit filename="Serpiente.h" />
 		<Unit filename="arana.h" />
 		<Unit filename="colisionable.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
-			<lib_finder disable_auto="1" />
+			<lib_finder disable_auto="1">
+				<lib name="sfml-audio" />
+			</lib_finder>
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>
